@@ -1,0 +1,484 @@
+/* before topheader search section  start*/
+#fade{
+    height: 40px;
+    color: #99AAAB;
+    border-bottom: blue;
+    background-color: #99AAAB ;
+    text-align: center;
+    align-items: center;
+    padding-left: 31%;
+    padding-right: 2%;
+    border-bottom: 1px solid white;
+}
+.ip1{
+    background-color: #99AAAB;
+    border-color: #99AAAB;
+    border: 0px;
+    width: 250px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#btn5{
+    background-color: lightgrey;
+    border-color: lightgrey;
+    padding-left: px;
+    border-radius: 22px;
+}
+
+#btn5:active{
+    outline: none;
+}    
+#btn5:hover{
+    outline: none;
+}
+/* nevbar search icon*/
+#btn6{
+    background-color: #99AAAB;
+    border-color: #99AAAB;
+}
+    
+
+/* topheader search section  end*/
+
+/* main img wala container*/
+#imgcont{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#imgcont div:hover{
+    background-color: black;
+    opacity: .9;
+}
+
+#img3:hover {
+    background-color:black;
+    opacity: .7;
+    transform: scale(1.03);
+}
+
+ div #img3 .shout{
+    position: relative;
+    text-align: center;
+}
+/* changing the navbar */
+
+/* firstsection wala section */
+.videoframe{
+    border-radius: 6px;
+}
+#firstsection{
+
+    padding-left: 15%px; padding-right: 25px; padding-top: 15px; padding-bottom: 10px;
+    
+}
+
+#btn1{
+    text-align: center;
+    border: none;
+    background-color: #0074D9;
+    border-radius: 4px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#btn1:hover{
+    background-color: #B10DC9;
+    box-shadow: rgba(0,0,0,0.5);
+}
+
+/* firstsection wala section  end*/
+
+/* bolg section id(#blog)*/
+#blog{
+    
+    
+}
+#img1cont{
+    width: 100%;
+    background-color:#DAE0E2;
+}
+.box{
+    background-color:#DAE0E2 ;
+    border-radius: 5px;
+    padding:4%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.box img{
+   border-radius: 10px;
+   opacity: .9;
+  padding: 0px;
+  margin: 0px;
+
+}
+.box img:hover{
+    opacity: .6;
+}
+.box h1{
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-weight: 700;
+    padding: 10%;
+    padding-top: 2%;
+}
+.box span{
+    position: absolute;
+    top:50px;
+    padding: 5%;
+    color: black;
+    left: 20px;
+}
+.box .img1count{
+    width: 100%;
+}
+
+#ig2{
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+    width: 50%;
+    padding: 5%;
+}
+   
+/* bolg section id(#blog)*/
+
+
+
+/* <!--video k baad wala (story wala) section start section_id #(secsection)-->  start*/
+#secsection{
+    padding-left: 10%; padding-right: 10%;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+a{
+    color: #333;
+    text-decoration:none;
+    outline: none;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+/* grid row*/
+.story-grid{
+    padding-top: 30px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 50px;
+}
+
+.story-grid .story-block{
+    width: 29.833%;
+    border: 1px solid #eee;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.story-grid .story-block .img-con{
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+    border: 1px solid #616C6F;
+    padding: 0px;
+}
+.story-grid .story-block .story-block-text {
+    min-height: 300px;
+    padding: 25px 35px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wp-block-group__inner-container{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+
+#sp{
+    font-weight: bold;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+p{
+    padding: 20px;
+    padding-bottom: 70px;
+}
+    /* secsection  section end */
+
+
+/*  <!--third section start here section id #(thirdsec)-->*/
+
+
+#thirdsec{
+    padding-left: 5%;
+    background-color: #DAE0E2;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+h4 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+
+#btn2{
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#btn2:hover{
+    background-color: crimson;
+    color: white;
+    border: 1px solid cornflowerblue;
+}
+#btn3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color: #DAE0E2;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#btn3:hover{
+    color: crimson;
+    border: 1px solid cornflowerblue;
+}
+/* Redy to start img class (.ig)*/
+.ig{
+    border-radius: 6px;
+    filter: blur(0px);
+}
+/*<!--third section end  here section id #(thirdsec)-->*/
+
+/* <!-- forth section (blog) section(#forthsection) start -->*/
+
+#forthsection{
+    padding: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+    
+h2.sub {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 5px;
+    line-height: 1.3em;
+}
+
+#form{
+    border-radius: 4px;
+    height: 0px;
+}
+/* email input form  class .ip*/
+.ip{
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+}
+
+/* subscribe button id(#btn4) */
+#btn4{
+    text-align: center;
+    border: none;
+    background-color: #0074D9;
+    border-radius: 4px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+
+}
+#btn4:hover{
+    background-color: #E71C23;
+    box-shadow: wheat;
+
+}
+
+
+
+/* <!-- forth section (blog) section(#forthsection) end -->*/
+
+/* footer */
+.lastw{
+    color: white;
+    background-color: #616C6F;
+}
+
+h2.shout {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 1.3em;
+}
+
+#soc {
+    text-align: left;
+    margin-left: 0px;
+}
+
+#soc ul{
+
+    list-style: none;
+    display: inline;
+    
+}
+.ff{
+    border-radius: 4px;
+    width: 50%;
+    height:40px;
+}
+
+#soc ul li{
+    color: white;
+    display: inline-flex;
+    width: 40px;
+}
+
+#soc ul li button{
+    background-color: white;
+    border-color: blue;
+    width: 40px;
+    height: 30px;
+    margin: 5px;
+    
+}
+
+
+/* footer new wala */
+/* <!--here id{#fh = footer header}--> */
+.foot{
+    padding-top: 10px;
+    border-top: 1px solid gray;
+    background-color: #EAF0F1;
+}
+
+
+#fh{
+    padding-top: 0px;
+    margin: 0px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    background-color: #99AAAB;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* logo image class  */
+.imgf{
+    padding: 2%;
+    padding-top: 2%;
+    
+    border-radius: 4px;
+}
+@media screen and (max-width: 600px){
+#soc{
+    padding-left:28%;
+    align-items: center;
+    text-align: center;
+}
+}
+@media screen and (min-width: 600px){
+    #soc{
+        padding-left:10%;
+        align-items: center;
+        text-align: center;
+    }
+    }
+
+/* removing the dot from the lines */
+ul{
+    list-style: none;
+}   
+ /*  here decoration of (a tag) the services links*/
+#services a{
+    color:#3C40C6;
+    margin-bottom: 10px;
+    padding-bottom: 35;
+}
+
+#services a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* here (#se)id of services links*/
+
+#se{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 0px;
+    line-height: 1.3em;
+    padding: 0px;
+       
+}
+
+
+/* service page*/
+
+h2.shout{
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    line-height: 1.3em;
+}
+
+.imgcont a{
+    text-decoration: none;
+}
+
+/* cent class is for the main heading of services*/
+.imgcont{
+    position: relative;
+    text-align: center;
+    color: cornsilk;
+}
+.cent{
+    position: relative;
+    text-align: center;
+}
+.cent .mainlink{
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+}

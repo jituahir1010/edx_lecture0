@@ -1,0 +1,102 @@
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyA-BWBLXMOyYM5HYWjypVxHm2cMlWeq-ww",
+        authDomain: "login-4b589.firebaseapp.com",
+        databaseURL: "https://login-4b589.firebaseio.com",
+        projectId: "login-4b589",
+        storageBucket: "login-4b589.appspot.com",
+        messagingSenderId: "783513069860",
+        appId: "1:783513069860:web:4747a3b9a13e2af667abb1",
+        measurementId: "G-XJQ7VSQLG9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+
+    function writeData() {
+        alert("fhdsh")
+
+        firebase.database().ref("user").set({
+            name: document.getElementById("namefield").value,
+            age: document.getElementById("ageField").value
+
+        });
+    }
+
+
+</script>
+
+
+
+var messagesRef = firebase.database().ref('contactformmessages');
+		
+		$('#contactForm').submit(function(e) {
+            e.preventDefault();
+            
+		 
+			var newMessageRef = messagesRef.push();
+			newMessageRef.set({
+				name: $('#exampleFullName').val(),
+				email: $('#exampleEmail').val(),
+				subject: $('exampleSubject').val(),
+				message: $('exampleMessage').val()
+			});
+		 
+			$('.success-message').show();
+		 
+			$('#contactForm')[0].reset();
+		});
+
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyA-BWBLXMOyYM5HYWjypVxHm2cMlWeq-ww",
+			authDomain: "login-4b589.firebaseapp.com",
+			databaseURL: "https://login-4b589.firebaseio.com",
+			projectId: "login-4b589",
+			storageBucket: "login-4b589.appspot.com",
+			messagingSenderId: "783513069860",
+			appId: "1:783513069860:web:4747a3b9a13e2af667abb1",
+			measurementId: "G-XJQ7VSQLG9"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+
+		function writeData() {
+
+			firebase.database().ref("user").set({
+
+				name: document.getElementById("un").value,
+				passwd: document.getElementById("ps").value
+			});
+
+		}
+	</script>
+
+
+
+
+	
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-storage.js"></script>
